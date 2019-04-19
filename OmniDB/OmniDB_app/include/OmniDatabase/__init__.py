@@ -45,7 +45,7 @@ class Generic(object):
                             p_conn_id=0,
                             p_alias='',
                             p_foreignkeys=True,
-                            p_application_name='OmniDB',
+                            p_application_name='AgensManager',
                             p_conn_string='',
                             p_parse_conn_string = False):
 

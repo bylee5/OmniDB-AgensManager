@@ -1,6 +1,6 @@
 import os
 
-OMNIDB_VERSION = 'OmniDB 2.14.0'
+OMNIDB_VERSION = 'AgensManager 2.14.0'
 OMNIDB_SHORT_VERSION = '2.14.0'
 DEV_MODE = True
 DESKTOP_MODE = False

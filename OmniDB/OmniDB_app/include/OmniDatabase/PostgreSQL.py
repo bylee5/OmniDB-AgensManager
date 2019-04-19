@@ -52,7 +52,7 @@ PostgreSQL
 ------------------------------------------------------------------------
 '''
 class PostgreSQL:
-    def __init__(self, p_server, p_port, p_service, p_user, p_password, p_conn_id=0, p_alias='', p_application_name='OmniDB', p_conn_string='', p_parse_conn_string = False):
+    def __init__(self, p_server, p_port, p_service, p_user, p_password, p_conn_id=0, p_alias='', p_application_name='AgensManager', p_conn_string='', p_parse_conn_string = False):
         self.v_alias = p_alias
         self.v_db_type = 'postgresql'
         self.v_conn_id = p_conn_id
@@ -694,7 +694,7 @@ class PostgreSQL:
     def GetVersion(self):
         self.v_version = self.v_connection.ExecuteScalar('show server_version')
         self.v_version_num = self.v_connection.ExecuteScalar('show server_version_num')
-        return 'PostgreSQL ' + self.v_version
+        return 'AgensGraph '
 
     def GetUserSuper(self):
         return self.v_connection.ExecuteScalar("select rolsuper from pg_roles where rolname = '{0}'".format(self.v_user))

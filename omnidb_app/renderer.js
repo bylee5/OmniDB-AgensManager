@@ -17,7 +17,7 @@ ipc.on('info' , function(event , data) {
     if (data[i].substring(0, 4)!='http')
       loading.innerHTML += data[i] + '<br/>';
     else {
-      loading.innerHTML += 'Opening OmniDB...<br/>';
+      loading.innerHTML += 'Opening AgensManager...<br/>';
       (function(value) { setTimeout( function() {
         loading_interface.style.display = 'none';
         view.style.display = '';

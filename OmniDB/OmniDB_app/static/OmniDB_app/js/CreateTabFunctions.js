@@ -348,7 +348,7 @@ function initCreateTabFunctions() {
     getTreeSnippets(v_tag.divTree.id);
 
     v_connTabControl.tag.createSnippetTextTab('Welcome');
-    v_connTabControl.selectedTab.tag.tabControl.selectedTab.tag.editor.setValue('Welcome to OmniDB!');
+    v_connTabControl.selectedTab.tag.tabControl.selectedTab.tag.editor.setValue('Welcome to AgensManager!');
     v_connTabControl.selectedTab.tag.tabControl.selectedTab.tag.editor.clearSelection();
     v_connTabControl.selectedTab.tag.tabControl.selectedTab.tag.editor.gotoLine(0, 0, true);
 

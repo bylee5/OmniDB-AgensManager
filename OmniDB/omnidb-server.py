@@ -233,8 +233,8 @@ class DjangoApplication(object):
         port = parameters['listening_port']
         num_attempts = 0
 
-        print('''Starting OmniDB server...''',flush=True)
-        logger.info('''Starting OmniDB server...''')
+        print('''Starting AgensManager server...''',flush=True)
+        logger.info('''Starting AgensManager server...''')
         print('''Checking port availability...''',flush=True)
         logger.info('''Checking port availability...''')
 
@@ -271,7 +271,7 @@ class DjangoApplication(object):
             cherrypy.engine.start()
 
             if not app_version:
-                print ("Open OmniDB in your favorite browser",flush=True)
+                print ("Open AgensManager in your favorite browser",flush=True)
                 if platform.system() != 'Windows':
                     print ("Press Ctrl+C to exit",flush=True)
             else:
@@ -291,8 +291,8 @@ if __name__ == "__main__":
     port = ws_port
     num_attempts_port = 0
 
-    print('''Starting OmniDB websocket...''',flush=True)
-    logger.info('''Starting OmniDB websocket...''')
+    print('''Starting AgensManager websocket...''',flush=True)
+    logger.info('''Starting AgensManager websocket...''')
     print('''Checking port availability...''',flush=True)
     logger.info('''Checking port availability...''')
 

@@ -18,7 +18,7 @@ var v_browserTabActive = true;
 $(function () {
 	$(window).focus(function() {
 	    v_browserTabActive = true;
-	    document.title = 'OmniDB';
+	    document.title = 'AgensManager';
 	});
 
 	$(window).blur(function() {

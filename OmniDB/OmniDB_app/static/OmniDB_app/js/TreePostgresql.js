@@ -3269,7 +3269,7 @@ function getTreePostgresql(p_div) {
         checkCurrentDatabase(node, false, v_customCallback);
     }
 
-    var node_server = tree.createNode('PostgreSQL', false,
+    var node_server = tree.createNode('AgensGraph', false,
         'node-postgresql', null, {
             type: 'server'
         }, 'cm_server');
